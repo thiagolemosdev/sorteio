@@ -28,6 +28,8 @@
         numeroMinimoSorteio === "" ||
         quantidadeNumerosSorteados === ""
       ) {
+        const div = document.querySelector(".resultado");
+        div.innerHTML = "";
         invalido();
       } else {
         const div = document.querySelector(".resultado");
