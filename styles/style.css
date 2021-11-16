@@ -26,7 +26,7 @@ div.container {
   background-color: var(--second-color);
   width: 980px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 60px;
   border-radius: 10px;
   /* padding: 20px; */
 }
@@ -137,4 +137,10 @@ div.resultado p span {
   margin-top: 5px;
   text-align: center;
   font-size: 20px;
+}
+
+div.resultado h1{
+  width: 100%;
+  color: var(--second-color);
+  background-color: var(--primary-color);
 }
